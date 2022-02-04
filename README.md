@@ -1,4 +1,4 @@
-# Image Outpainting and Harmonization using GANs - PyTorch Implementation
+# Image Outpainting and Harmonization using GANs - PyTorch Implementation (Original ReadMe)
 
 <img src="idea.png" alt="Idea" width="400"/>
 
@@ -35,5 +35,3 @@ Artwork:
 ## Known issues
 
 * The adversarial loss weight follows a specific schedule in order to prevent the generator from collapsing to a simple autoencoder, or reconstruction loss minimizer. However, making this term too important results in rather glitched but nonetheless sharper visuals. Room for improvement therefore exists in terms of finding a better balance.
-
-Enjoy!
