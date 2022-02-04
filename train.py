@@ -7,7 +7,7 @@ Uses GPU:0 with CUDA (feel free to switch to CPU or use DataParallel).
 if __name__ == '__main__':
 
     import torch
-    from outpainting import *
+    from basile import *
 
     print("PyTorch version: ", torch.__version__)
     print("Torchvision version: ", torchvision.__version__)
